@@ -1,0 +1,5 @@
+
+
+import sys
+sys.path.insert(1, 'C:/Users/talha/Desktop/pycodes')
+import tk_cprofile

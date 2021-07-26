@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul 24 23:09:49 2021
+
+@author: talha
+"""
+
+1- Main_files must  and other auxalury files
+
+2-Versıon print function and start with calling this function
+def version_info():
+    print("Version information: V1.1 19-05-2014"
+          "V1.2 26/02/2015")

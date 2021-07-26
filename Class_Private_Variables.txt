@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul 24 21:47:22 2021
+
+@author: talha
+"""
+
+class Person:
+    __name = "NoName" # weak tabi set ve get ile ulaşışabilir.normalde de   #ulasulr
+    #__ ile baslayan fonksyionlara ulaşılamaz strong deniliyor 
+    def play(self):
+        print(self.__name)
+
+c1 = Person()
+#print(c1.__name) # __ ile strong private yapılıyor. 
+c1.play()
