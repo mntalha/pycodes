@@ -12,12 +12,11 @@ import unittest
 def summ(a,b):
     return a+b
 class TestClass(unittest.TestCase):
-    #fonksiyon isimleri test_ ile baslamalı
+    #function name's must starts with "test"
     def test_funct1(self):
         print("HEYY")
     def test_summ(self):
         #arrange 
-        #burada degiskenler olusturulur
         a = 10
         b = 20
         #act
