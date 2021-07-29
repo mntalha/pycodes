@@ -20,7 +20,7 @@ class TestClass(unittest.TestCase):
         a = 10
         b = 20
         #act
-        #burada fonksiyon cagırılır
+        #call function here
         result = summ(a,b)
         #assert
         self.assertEqual(result, 10)
